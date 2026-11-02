@@ -1,10 +1,11 @@
 
 export default function Hero() {
   return (
+    <>
       <div className="flex flex-col md:flex-row gap-4 max-w-full">
         <div className="order-2 md:order-1">
           <div>👋 Hello, I'm</div>
-          <h1>RAJU ISLAM</h1>
+          <h1>MD RAJU ISLAM</h1>
 
           <h2>Full-Stack Developer | React developer|</h2>
 
@@ -37,15 +38,18 @@ export default function Hero() {
 
           </div>
 
-          <div>
-            <p>SCOLL TO EXPLORE</p>
-            <i class="fa-solid fa-arrow-down"></i>
-          </div>
         </div>
 
         <div className="order-1 md:order-2">
           <img src="./src/assets/my-img.jpg" alt="myImg" className="max-w-50 rounded-full"/>
         </div>
       </div>
+
+      
+      <div className="flex flex-col items-center w-full">
+        <p>SCOLL TO EXPLORE</p>
+        <i class="fa-solid fa-arrow-down"></i>
+      </div>
+   </>
   )
 }

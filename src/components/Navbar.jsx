@@ -40,9 +40,9 @@ export default function Navbar() {
          </ul>
       </nav>
 
-       <div className="Menubar block sm:hidden">
+       <button className="Menubar block sm:hidden">
          <i class="fa-solid fa-bars"></i>
-       </div>
+       </button>
       </div>
 
     </header>

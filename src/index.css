@@ -12,6 +12,9 @@ nav ul li{
   h1{
     @apply text-2xl font-bold;
   }
+  h3{
+    @apply text-md font-semibold
+  }
   input{
   @apply border-2 rounded
   }
