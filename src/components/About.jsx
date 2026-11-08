@@ -18,8 +18,7 @@ export default function About() {
                   <h1>Hello! I'm Raju Islam</h1>
 
                   <p>
-                    I'm a passionate  
-                    <strong className="text-blue-800">Full-Stack Developer</strong> based in Bangladesh, focused on crafting modern, high-performance web applications. <br /> <br />
+                    I'm a passionate <strong className="text-blue-800">Full-Stack Developer</strong> based in Bangladesh, focused on crafting modern, high-performance web applications. <br /> <br />
 
                     With expertise in <strong className="text-red-400">React, Tailwind CSS, PHP, and JavaScript</strong>, I specialize in building scalable, user-centric interfaces. My dedication to problem-solving and clean code enables me to deliver efficient digital solutions. <br /><br />
 
@@ -79,7 +78,7 @@ export default function About() {
 
                   <div>
                       <i class="fa-regular fa-lightbulb"></i>
-                      <h1>95%+</h1>
+                      <h1>93%+</h1>
                       <p>JavaScript Proficiency</p>
                   </div>
 
@@ -105,7 +104,7 @@ export default function About() {
 
                   <div className="flex gap-2">
                      <div>
-                      <i class="fa-solid fa-layer-group"></i>
+                      <i class="fa-solid fa-brain"></i>
                      </div>
                      
                      <div>
