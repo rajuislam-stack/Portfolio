@@ -2,7 +2,7 @@
 export default function Hero() {
   return (
     <>
-      <div className="flex flex-col md:flex-row gap-4 max-w-full">
+      <div className="flex flex-col md:flex-row gap-4 max-w-full mt-20" id="home">
         <div className="order-2 md:order-1">
           <div>👋 Hello, I'm</div>
           <h1>MD RAJU ISLAM</h1>

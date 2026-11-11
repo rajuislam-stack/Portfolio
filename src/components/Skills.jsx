@@ -3,7 +3,7 @@ import { Icon } from '@iconify/react';
 export default function Skills() {
   return (
     <div className="flex flex-col items-center justify-center gap-4">
-       <div>Technical Skills & Tools</div>
+       <div id='stack'>Technical Skills & Tools</div>
 
        <h3>Modern Web Technologies & Active Learning Stack</h3>
 

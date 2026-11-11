@@ -4,7 +4,7 @@ export default function About() {
     <div className="flex flex-col items-center gap-2">
 
       <div>
-        <div>About Me</div>
+        <span id="about">About Me</span>
 
         <h1>Crafting Digital Excellence</h1>
 

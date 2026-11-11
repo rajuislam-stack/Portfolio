@@ -6,6 +6,9 @@ nav ul li{
 }
 
 @layer base{
+  body{
+    @apply scroll-smooth bg-gray-100;
+  }
   button{
     @apply px-4 py-2 rounded shadow bg-purple-100 m-2 cursor-pointer
   }
