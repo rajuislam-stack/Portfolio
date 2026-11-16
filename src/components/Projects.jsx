@@ -7,6 +7,7 @@ export default function Projects() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const currentProject = projects[currentIndex];
+  
 
   // Next Slide Handler
   const handleNext = () => {
@@ -19,45 +20,28 @@ export default function Projects() {
   };
 
   return (
-    <>
+    <section className="flex flex-col gap-4">
 
-    <div className='flex flex-col justify-center items-center '>
+    <div className='flex flex-col justify-center items-center gap-4 '>
        <span id='works'>My Projects</span>
        <h1>Featured Works & Practice Projects</h1>
        <p>A showcase of real-world applications built with clean architecture, modern frontend frameworks, and structured backend logic.</p>
     </div>
 
 
-    <section className="relative w-full min-h-screen bg-black text-white overflow-hidden flex flex-col justify-between py-8 px-4 md:px-12">
+    <div className="relative w-full min-h-screen bg-purple-50 text-white overflow-hidden flex flex-col justify-between py-8 px-4 md:px-12">
         
        
-        
-
 
       {/* 1. Dynamic Background Image with Dark Overlay */}
       <div 
-        className="absolute inset-0 bg-cover bg-center transition-all duration-700 ease-in-out z-0 opacity-40"
-        style={{ backgroundImage: `url(${currentProject.bgImage})` }}
+        className="absolute inset-0 bg-cover bg-center transition-all duration-700 ease-in-out z-0 opacity-60"
+        style={{ backgroundImage: `url(${currentProject.projectImage})` }}
       />
+      
       {/* Gradient Dark Overlay for Perfect Readability */}
-      <div className="absolute inset-0 bg-linear-to-t from-black via-black/70 to-black/40 z-10" />
+      <div className="absolute inset-0 bg-linear-to-t from-red-400 via-black/20 to-red-300/40 z-10" />
 
-      {/* 2. Top Navigation Tabs (Projects List like Seasons) */}
-      <div className="relative z-20 flex flex-wrap gap-4 md:gap-8 justify-center items-center border-b border-white/15 pb-4 pt-2">
-        {projects.map((proj, idx) => (
-          <button
-            key={proj.id}
-            onClick={() => setCurrentIndex(idx)}
-            className={`text-xs md:text-sm uppercase tracking-widest transition-all pb-1 ${
-              currentIndex === idx 
-                ? 'text-white border-b-2 border-white font-bold scale-105' 
-                : 'text-gray-400 hover:text-gray-200'
-            }`}
-          >
-            0{proj.id} / {proj.title}
-          </button>
-        ))}
-      </div>
 
       {/* 3. Middle Section: Left & Right Arrow Buttons for Changing Projects */}
       <div className="relative z-20 flex justify-between items-center my-auto px-2 md:px-6">
@@ -142,7 +126,7 @@ export default function Projects() {
 
       </div>
 
+    </div>
     </section>
-    </>
   );
 }
