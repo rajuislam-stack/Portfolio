@@ -5,7 +5,7 @@ import taskTrackerImg from './assets/task-tracker.png';
 import charCounterImg from './assets/char-counter.png';
 import passwordGenImg from './assets/password-generator.png';
 
-export const projects = [
+export const projectsInfo = [
   {
     id: 1,
     title: 'Bookmark Manager Application',

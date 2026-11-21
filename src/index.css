@@ -26,3 +26,13 @@ nav ul li{
   }
 }
 
+
+@layer components{
+  .next-prev-btn{
+    @apply bg-white/10 backdrop-blur-lg rounded-full hover:bg-blue-100 hover:text-black transition-all ease-in-out duration-1000; 
+  }
+  .action-btn{
+    @apply flex justify-center items-center gap-4 bg-white/10 backdrop-blur-2xl rounded px-4 py-2 ;
+  }
+
+}
