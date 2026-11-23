@@ -35,7 +35,8 @@ export default function Projects() {
 
          {/*Gredient Overlay */}
 
-        <div className="absolute inset-0 z-10 bg-linear-to-t from-black/90 via-red-300/40 bg-red-200/10 "/>
+        <div className={`absolute inset-0 z-10 transition-all duration-1000 ease-in-out `}
+        style={{background:currentProject.overlayGradient}}/>
        
 
          {/*//left and right button*/}
